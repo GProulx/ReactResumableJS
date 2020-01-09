@@ -41,9 +41,6 @@
   },
   "homepage": "https://github.com/Artear/ReactResumableJS#readme",
   "dependencies": {
-    "prop-types": "^15.6.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
     "resumablejs": "^1.1.0"
   },
   "devDependencies": {
@@ -70,5 +67,10 @@
     "pm2": "^2.0.15",
     "react-addons-test-utils": "15.5.1",
     "webpack-hot-middleware": "2.0.0"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
   }
 }
